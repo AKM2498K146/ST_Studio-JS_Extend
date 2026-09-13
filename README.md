@@ -393,10 +393,6 @@ A terminated grant does **not reinstate automatically**. Reinstatement requires 
 
 **实质性改动（Substantial Change）**：见 0.0.1——须同时满足功能、改动、对比三项标准；满足即可售卖（售卖 ≠ 倒卖）。
 **Substantial Change**: see 0.0.1 — all three criteria must be met; once met, sale is allowed (sale ≠ resale).
-
-**指定分发者（Designated Distributors）**：原作者本人及 `AKM2498K146`。两者均为本协议项下的分发主体，可依法依约分发对应作品。
-**Designated Distributors**: the original author and `AKM2498K146`. Both are distributors under this agreement, and may distribute the corresponding work in accordance with this agreement.
-
 ---
 
 > **一句话总结 / In one line**
@@ -404,5 +400,6 @@ A terminated grant does **not reinstate automatically**. Reinstatement requires 
 > **免费使用与免费分发（署名即可），改动足够可售卖，但收费卖本体 = 倒卖；使用者付了代价即为倒卖，平台强制与否、作者有无收益不改变定性。**
 > **Free use and free distribution (with attribution); sale allowed after substantial changes (sale ≠ resale); but selling the original work = resale. If the user pays any price, it is resale regardless of platform or author.**
 >
-> **完整条款 / Full terms：`LICENSE`（中文与英文同等效力）。**
-> **Full terms: `LICENSE` (Chinese and English are equally authentic).**
+> **完整条款 / Full terms：[SACAL1.0LICENSE](./LICENSE)（中文效力为主要）。**
+> **Full terms: [SACAL1.0LICENSE](./LICENSE) (The effect of the Chinese language is primarily).**
+> [LICENSE](./LICENSE)
