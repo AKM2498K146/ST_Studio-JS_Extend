@@ -1,5 +1,4 @@
 # SACAL 1.0
-# SACAL 1.0
 
 **Simple Attribution-Conditional Authorization License 1.0**
 简单署名-条件性授权许可协议 1.0
