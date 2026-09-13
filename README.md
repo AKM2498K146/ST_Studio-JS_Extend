@@ -1,5 +1,10 @@
 # SACAL 1.0
 
+>原作者署名标签
+>>ST工作室
+>> Original author byline tag:ST工作室
+>> (Can't print out, please copy, prohibit using ST_Studio as tag)
+
 **Simple Attribution-Conditional Authorization License 1.0**
 简单署名-条件性授权许可协议 1.0
 
