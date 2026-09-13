@@ -3,7 +3,7 @@
 > **S**ource-**A**vailable **C**ustom **A**ttribution **L**icense
 > 源可用自定义许可证 · **一个仓库、多个作品、各自署名**
 
-🌐 完整条款见 **[LICENSE](./LICENSE)**（中英对照 / Bilingual）
+完整条款见 **[LICENSE](./LICENSE)**（中英对照 / Bilingual）
 
 ---
 
