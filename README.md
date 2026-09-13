@@ -1,0 +1,631 @@
+# SACAL 1.0
+
+**Simple Attribution-Conditional Authorization License 1.0**
+简单署名-条件性授权许可协议 1.0
+
+`SPDX-License-Identifier: LicenseRef-SACAL-1.0`
+
+> **授权声明**：本作品采用 **SACAL 1.0** 协议授权；除本协议明确许可外，保留一切权利（All rights reserved except as expressly granted herein）。
+>
+> **本协议为自定义许可证（custom license），并非 OSI 批准的开源许可证（Open Source Initiative Approved License），亦不宣称符合 OSI 开源定义（The Open Source Definition）。** 对本作品的授权以本协议明文约定为限；未经许可的使用行为，不属于本协议授予的权利范围。
+>
+> 完整条款以本文件（`README.md`）为准；`LICENSE` 为配套的纯条款文本（可选）。二者不一致时，以 `README.md` 为准。
+
+---
+
+## 目录 / Table of Contents
+
+- **0. 授权范围 / Grant of License**
+  - 0.0 有限商用（含 0.0.1 改动足够即可售卖）
+  - 0.1 分发（0.1.1–0.1.5：平台付费情形判定）
+  - 0.2 禁止倒卖（含 0.2.1 对价界定）
+  - 0.3 禁止换皮售卖
+  - 0.4 禁止夹带无用积木
+  - 0.5 禁止隐藏署名页
+- **1. 署名要求 / Attribution**
+  - 1.1 格式 · 1.2 位置与路径深度 · 1.3 不隐蔽
+- **2. 免责声明 / Disclaimer**
+  - 2.1 内容责任 · 2.2 违规使用 · 2.3 不作担保 · 2.4 第三方内容
+- **3. 终止 / Termination**
+  - 3.1 自动终止 · 3.2 既往责任不受影响 · 3.3 恢复（不自动）
+
+---
+
+## 0. 授权范围 / Grant of License
+
+### 0.0 有限商用 / Limited Commercial Use
+
+在遵守本协议全部条款（尤其是署名义务）的前提下：
+
+- **允许**：个人学习、研究、修改、二次创作，以及在**实质性改动**前提下的商业使用（不含对本作品本体的收费分发）；
+- **禁止**：倒卖、换皮售卖、收费分发，以及任何形式的"借本作品本体获利"；
+- **署名义务始终有效**（见第 1 条），**无论是否免费**。
+
+Subject to all terms of this agreement (especially attribution):
+
+- **Permitted**: personal study, research, modification, derivative works,
+  and **commercial use after substantial changes** (excluding any paid distribution of the original work itself);
+- **Prohibited**: resale, reskinning, paid distribution, and any form of "profiting from the original work itself";
+- **Attribution always applies** (Section 1), **whether free of charge or not**.
+
+> 即不得单独对本作品标价出售、不得以绕过署名义务为目的的付费门槛来分发。
+
+> The original work must not be sold on its own, nor distributed behind a paywall whose purpose is to circumvent attribution.
+
+#### 0.0.1 改动足够即可售卖（售卖 ≠ 倒卖）/ Sufficient Changes Allow Sale (Sale ≠ Resale)
+
+对本作品进行**实质性改动**后形成的**衍生作品**，可以**售卖**；此处的"售卖"指**出售衍生作品整体**，**不属于**第 0.2 条的"倒卖"。
+
+A derivative work created with **substantial changes** to this work **may be sold**.
+"Selling" here means selling **the derivative work as a whole**; it is **not** "resale" under Section 0.2.
+
+**判定是否为"实质性改动"，须同时满足以下三项客观标准**（不以作者单方声明为准，争议时提交第三方裁定）：
+
+**Whether a change is "substantial" is determined by ALL THREE of the following objective criteria**
+**(not by the author's unilateral statement; disputes go to a third party)**:
+
+1. **功能标准 / Functionality**
+   核心功能、逻辑、结构被**实质重构**或**显著扩展**；
+   The core functionality, logic, or structure has been **substantially restructured** or **significantly extended**.
+
+2. **改动标准 / Degree of Change**
+   改动**远超**表层装饰（非仅替换名称、图标、配色、文案或少量积木）；
+   Changes go **far beyond** surface decoration (not merely renaming, icons, colors, copy, or a few blocks).
+
+3. **对比标准 / Comparability**
+   与原作**并排对比**时，**一眼可辨**为不同作品；
+   When placed **side by side**, it is **clearly distinguishable** from the original.
+
+**满足全部三项 → 视为实质性改动 → 允许售卖；否则仍属倒卖 / 换皮。**
+**All three must be met → substantial change → sale allowed; otherwise it remains resale / reskinning.**
+
+**即使允许售卖，仍须遵守：**
+**Even where sale is allowed, the following still apply:**
+
+- **署名义务（第 1 条）依然有效**——售卖衍生作品**不得移除或削弱**署名；
+  **Attribution (Section 1) remains in force** — selling a derivative work must **not remove or dilute** attribution.
+- 售卖的衍生作品**仍须满足 0.3（禁止换皮）**——若改动仅为规避署名或凑数，不计入改动幅度；
+  The derivative work must still satisfy **0.3 (no reskinning)** — changes made merely to evade attribution or pad the count do not count.
+
+---
+
+### 0.1 允许所有人分发 / Distribution
+
+允许**免费**分发、传播本作品（复制、分发、展示、传播，含通过第三方平台托管与再分发）。
+**收费分发一律视为倒卖（0.2）**。
+
+Distribution of this work is permitted **free of charge** (copying, distributing, displaying,
+broadcasting, including hosting and redistributing via third-party platforms).
+**Any paid distribution counts as resale (0.2).**
+
+> "免费分发"不含以下情形：
+>
+> - 以**付费下载、付费解锁、订阅门槛、打赏后获取**等方式，对本作品**本体**收取对价；
+> - 通过网盘 / 云盘平台分发时，若使用者**须付费才能取得本作品**（见 0.1.1–0.1.5）；
+> - 以**实物载体**（刻盘、U 盘、预装设备等）**单独出售**本作品。
+>
+> **但以下不视为收费**：为取得本作品**必须支付的、针对传输服务的合理成本**
+> （如网盘会员费、刻录邮费），**前提是**该费用**针对传输服务本身、而非作品本体的对价**，
+> 且作者**未从中取得收益**。认定以第 0.1 条的网盘规则为准。
+
+> "Free distribution" excludes:
+>
+> - charging for the work **itself** via paid download, paid unlocking, subscription barriers, or "tip-to-access";
+> - any case where the user **must pay** to obtain the work via a cloud / net disk platform (see 0.1.1–0.1.5);
+> - selling the work **alone** on a physical medium (CD, USB drive, preinstalled device).
+>
+> **Not counted as charging**: reasonable costs **inevitably incurred for transmission itself**
+> (cloud-membership fees, postage for a burned disk), **provided** the fee is **for the transmission service, not consideration for the work**, and the author **gains no revenue** from it. Determination follows the cloud-platform rules in Section 0.1.
+
+**免费分发、转分发时，第 1 条的署名义务始终有效；收费分发构成倒卖，不适用本项。**
+**Attribution (Section 1) always applies to free distribution and redistribution; paid distribution is resale and this item does not apply.**
+
+#### 0.1.1 平台强制 + 作者有收益 → 算作倒卖 / Mandatory + Author Profits → Resale
+
+若网盘 / 云盘平台**强制**使用者付费（付费才能下载、强制搭售会员或加速包等），
+**且**作者**从中获得任何收益**（分成、激励、流量变现、等价物等）：
+
+- **视为倒卖**，适用第 0.2 条，授权**自动终止**（第 3 条）。
+
+If the cloud / net disk platform **forces** users to pay **and** the author **derives any revenue**
+(share, incentive, traffic monetisation, equivalent, etc.):
+
+- **this counts as resale** under Section 0.2, and the grant **terminates automatically** (Section 3).
+
+#### 0.1.2 平台强制 + 作者无收益（可选 + 作者无收益）→ 同样算作倒卖 / Mandatory (or Optional) + No Revenue → Still Resale
+
+**核心规则：只要使用者为获取本作品付出了任何代价，无论作者是否获益、无论平台是否强制，
+一律视为倒卖。**
+
+**Core rule: whenever a user pays any price to obtain this work—whether or not the
+author profits, and whether or not the platform forces it—it counts as resale.**
+
+##### 情形 A：平台强制付费，作者完全无收益 / Case A — Mandatory + No Revenue
+
+若网盘 / 云盘平台**强制**使用者付费（付费才能下载、强制搭售会员或加速包等），
+且**作者本人未从中获得任何收益**（无法关闭该功能、无分成、无激励、无等价物）：
+
+- **仍视为倒卖**，适用第 0.2 条，授权**自动终止**（第 3 条）；
+- "作者没有赚钱"**不构成免责理由**；使用者确实付了费，即已落入"收费提供"；
+- 作者**不得**以「平台强制、与我无关」为由主张免责；
+- **唯一出路**：作者**不得**通过此类强制收费平台分发本作品，
+  应**改选不强制收费的渠道**，或确保使用者**存在完全免费、无需付费的获取途径**
+  （如直链、免费托管平台、官方镜像等）；否则即视为倒卖。
+
+If the cloud / net disk platform **forces** users to pay and **the author gains no
+revenue whatsoever** (cannot disable the feature, no share, no incentive, no equivalent):
+
+- **this still counts as resale** under Section 0.2, and the grant **terminates automatically** (Section 3);
+- "the author made no money" is **not a defence**; the user did pay, which is enough;
+- the author **may not** claim exemption on the grounds that "the platform forces it, it's not my fault";
+- **the only way out**: the author **must not** distribute this work through such a mandatory-charge
+  platform, but **switch to a non-charging channel**, or ensure a **completely free, no-payment
+  route** exists (direct link, free hosting, official mirror, etc.); otherwise it is resale.
+
+##### 情形 B：平台不强制，但作者同样无收益 / Case B — Optional + No Revenue
+
+若平台**不强制**付费（收费功能由作者选择），且作者**确实未开启任何收费、无任何收益**，
+**但使用者仍需付出某种代价**（平台默认开启的增值服务、默认勾选的付费项、隐性门槛等）：
+
+- **同样视为倒卖**；
+- "作者没开、作者没赚钱"**不改变**"使用者付了代价"这一事实；
+- 若作者**实际能够关闭或规避**该付费 / 代价，却**未关闭**，
+  视为**未经允许的倒卖**（0.2），授权**自动终止**（第 3 条）；
+- 作者**应确保**使用者获取本作品**无需付出任何代价**；凡存在付费或等价代价，
+  须**主动关闭或另行提供完全免费的获取渠道**。
+
+If the platform is **optional** but the author **gains no revenue**, yet **the user still has to
+pay some price** (platform-default value-added service, pre-ticked paid option, hidden threshold, etc.):
+
+- **this still counts as resale**;
+- "the author didn't enable it and made no money" does **not change** the fact that the user paid;
+- if the author **could have disabled or avoided** the charge but **did not**,
+  this is **unauthorized resale** (0.2) and the grant **terminates automatically** (Section 3);
+- the author **must ensure** obtaining this work **costs the user nothing**; wherever a fee or
+  equivalent exists, it **must be disabled or a fully free channel provided**.
+
+##### 关于「特殊小条款」 / On the "Special Clause"
+
+**本协议不设"强制付费 + 无收益"的特殊小条款**：
+"作者无收益"最多只能说明**责任轻重可能不同**，但**不能改变"收费提供即倒卖"的定性**。
+
+**This agreement provides no "mandatory charge + no revenue" special clause**：
+"no revenue to the author" may at most affect the **degree of liability**, but **not the characterisation**
+of charging as resale.
+
+#### 0.1.3 平台不强制，作者未开启收费，且使用者无需付出代价 → 不算 / Not Mandatory, Author Did Not Enable, and User Pays Nothing → Not Resale
+
+若平台**不强制**付费（收费功能由作者**自行选择**是否开启），且**作者未开启任何收费**
+（未开启付费下载、付费加速、会员专享、分成激励等），**且使用者确实无需付出任何代价**
+即可取得本作品，即使平台**存在**付费选项：
+
+- 视为**免费分发，不构成倒卖**。
+
+**但若平台虽"可选"，使用者实际仍需付出某种代价（默认开启、默认勾选、隐性门槛等），
+则不适用本项，应按 0.1.2 情形 B 认定为倒卖。**
+
+If the platform does **not** force payment (whether to charge is the author's own choice),
+and **the author has not enabled any charging** (paid download, paid speed-up,
+members-only access, revenue share, etc.), **and the user can truly obtain the work without
+paying any price**, even though the platform **offers** paid options:
+
+- this is treated as **free distribution and does not constitute resale**.
+
+**But if the platform, though "optional", still makes the user pay some price in practice
+(default-on, pre-ticked, hidden threshold, etc.), this item does not apply, and it shall be
+treated as resale under Case B of 0.1.2.**
+
+#### 0.1.4 平台不强制，作者主动开启收费 → 算作倒卖（0.1.2 情形 B 的典型表现）/ Not Mandatory, Author Enabled Charging → Resale
+
+若平台**不强制**付费，但**作者主动选择了收费**（自行开启付费下载、付费加速、
+会员专享、接受平台激励分成等），即 0.1.2 **情形 B** 的典型表现：
+
+- 一律视为**未经允许的倒卖**，适用第 0.2 条，授权**自动终止**（第 3 条）；
+- 不因「平台只是提供选项、作者自愿选择」而免责；
+- 不因「作者以此获利」或「作者未获利」而改变定性——**只要使用者付了代价，即为倒卖**。
+
+If the platform does **not** force payment, but **the author voluntarily enabled charging**
+(turned on paid download, paid speed-up, members-only access, accepted revenue share, etc.),
+this is the **typical Case B** of 0.1.2:
+
+- this counts as **unauthorized resale** under Section 0.2, and the grant
+  **terminates automatically** (Section 3);
+- the author is **not exempt** on the grounds that "the platform merely offered the option
+  and the author chose it voluntarily";
+- whether the author profits or not **does not change the characterisation**—
+  **if the user pays any price, it is resale.**
+
+#### 0.1.5 判断原则 / Determining Principle
+
+**一句话：看使用者是否付了代价；只要付了，就是倒卖——平台强制与否、作者有无收益，都不改变定性。**
+
+**In one line: ask only whether the user paid a price. If yes, it is resale — regardless of
+whether the platform forced it or the author profited.**
+
+- **使用者付出任何代价**（钱、币、点、券、积分、代币、虚拟资产、等价物，或任何非现金价值）
+  = **收费提供** → **倒卖（0.1.1 / 0.1.2）**；
+- **平台强制** 或 **平台可选**，定性**不变**；
+- **作者有收益** 或 **作者完全无收益**，定性**不变**；
+  （"作者无收益"只可能影响责任轻重，**不能使其变成免费分发**；特殊小条款**已取消**。）
+- 唯一的"不算倒卖"情形：**使用者确实无需付出任何代价即可取得本作品**（0.1.3 / 0.1.4 的前提）。
+  凡存在付费或等价代价，作者**必须主动关闭或另行提供完全免费的获取渠道**，否则即视为倒卖。
+
+- **The user pays any price** (money, coin, point, voucher, credit, token, virtual asset,
+  equivalent, or any non-cash value) = **charging** → **resale (0.1.1 / 0.1.2)**;
+- **Platform mandatory** or **platform optional** → **no change to characterisation**;
+- **Author profits** or **author gains nothing** → **no change to characterisation**;
+  ("no revenue" may affect degree of liability only, **not turn it into free distribution**;
+  the special clause **is abolished**.)
+- The only "not resale" case: **the user can truly obtain the work without paying anything**
+  (the premise of 0.1.3 / 0.1.4). Where any fee or equivalent exists, the author **must disable it
+  or provide a fully free channel**; otherwise it is resale.
+
+### 0.2 禁止倒卖 / No Resale
+
+**禁止倒卖**：不得以任何形式**出售、转售、出租、出借、许可、分销牟利**本作品或其**近似复制**，
+包括但不限于：换名出售、打包售卖、作为付费资源发布、嵌入付费产品等。
+
+**Resale is prohibited**: selling, reselling, renting, lending, licensing, or distributing for profit
+this work or a **near-copy** of it, including but not limited to selling under a new name,
+selling in a bundle, posting as paid content, or embedding in a paid product.
+
+#### 0.2.1 「对价」的界定 / What Counts as "Consideration"
+
+**认定"收费提供"时，"对价"包括但不限于以下形式——不以法定货币为限，
+也不以其是否在某一国家或地区合法流通为前提：**
+
+**For the purposes of determining "charging", "consideration" includes but is not limited to
+the following forms. It is NOT limited to legal tender, nor does it depend on whether the
+form is legally recognised or in circulation in any given country or region.**
+
+1. **法定货币及其电子化形式**：人民币、美元、欧元等各国法定货币，以及通过银行转账、
+   电子支付等方式支付的等价金额；
+   **Legal tender and its electronic forms**: RMB, USD, EUR, etc., and equivalent amounts paid
+   via bank transfer or electronic payment.
+
+2. **在部分国家或地区不被认可、甚至被禁止的货币**：例如**在中国被禁止交易、流通的虚拟货币**
+   （如比特币等）；**无论其是否合法、是否可流通，均计入对价**；
+   **Currencies not recognised—or even prohibited—in some countries or regions**: for example,
+   **virtual currencies whose trading or circulation is prohibited in Mainland China** (such as Bitcoin).
+   **Whether legal or in circulation is irrelevant; they all count as consideration.**
+
+3. **电子货币**：电子钱包余额、在线支付账户余额、第三方支付平台内的等价资产等；
+   **Electronic money**: e-wallet balances, online-payment-account balances,
+   equivalent assets within third-party payment platforms.
+
+4. **代币与充值货币**：平台代币、积分、钻石、金币、点券、礼券、充值余额等；
+   **Tokens and top-up currencies**: platform tokens, points, diamonds, coins, vouchers,
+   gift certificates, top-up balances.
+
+5. **软货币与硬货币**：仅在特定平台或体系内流通的**软通货**，以及可兑换、可提现的**硬通货**；
+   **Soft and hard currency**: soft currency circulating only within a specific platform or system,
+   and hard currency that is exchangeable or withdrawable.
+
+6. **游戏内货币**：金币、钻石、点券、绑定点券等，无论是否可提现；
+   **In-game currency**: gold, diamonds, points, bound points, etc., whether withdrawable or not.
+
+7. **以物易物**：以虚拟道具、账号、资源、服务或其他非货币利益换取本作品；
+   **Barter**: exchanging virtual items, accounts, resources, services, or other non-monetary benefits for this work.
+
+**核心原则 / Core principle**：不以"是否合法、是否可流通、是否可提现"为准，
+**而以"使用者是否为获取本作品支付了或转移了任何价值"为准**。
+换言之，不论对价表现为**钱、币、点、券、积分、代币、虚拟资产还是其他等价物**，
+只要使用者为取得本作品**付出了任何代价** → 即"收费提供" → **构成倒卖**。
+
+The test is **not** whether it is legal, in circulation, or withdrawable,
+**but whether the user paid or transferred any value to obtain this work**.
+In other words, whether the consideration takes the form of **money, coin, point, voucher,
+credit, token, virtual asset, or any other equivalent**, if the user **pays any price**
+to obtain this work → it is "charging" → **resale**.
+
+### 0.3 禁止换皮售卖 / No Reskinning
+
+**禁止"换皮"**：不得仅作**表面性、装饰性、微不足道的改动**后即当作自己的作品售卖
+（含在付费商店、资源市场等发布），**即使保留了署名**。
+
+**Reskinning is prohibited**: selling the work after only **cosmetic, decorative, or trivial changes**
+as if it were one's own (including posting on paid stores or asset marketplaces),
+**even if attribution is retained**.
+
+**认定"换皮"须同时满足以下三项客观标准**（不以作者单方声明为准，争议时提交第三方裁定）：
+
+**A "reskin" is determined by ALL THREE of the following objective criteria**
+**(not by the author's unilateral statement; disputes go to a third party)**:
+
+1. **功能标准 / Functionality**
+   核心功能、逻辑、结构**未被实质重构**；
+   The core functionality, logic, or structure has **not been substantially restructured**.
+
+2. **改动标准 / Degree of Change**
+   改动**仅为**表层装饰或**远不足**以构成新作品；
+   Changes are **merely** cosmetic or **far from** constituting a new work.
+
+3. **对比标准 / Comparability**
+   与原作**并排对比**时，**实质相似、难以区分**；
+   When placed **side by side**, it is **substantially similar and hard to distinguish** from the original.
+
+**满足全部三项 → 认定为换皮 → 禁止售卖，视为倒卖。**
+**All three must be met → reskin → sale prohibited and treated as resale.**
+
+**反之（三项中任一项不满足）→ 视为实质性改动 → 可售卖（适用 0.0.1）。**
+**Conversely (any one of the three not met) → substantial change → sale allowed (under 0.0.1).**
+
+### 0.4 禁止夹带无用积木 / No Useless Blocks
+
+**禁止**在作品（尤其是署名相关部分）中夹带**空操作积木、弱操作积木、低操作积木**，
+用以**凑数、规避署名、规避改动幅度要求**或**误导第三方认定**。
+
+**Prohibited**: embedding **null-operation, weak-operation, or low-operation blocks** in the work
+(especially in the attribution-related parts) to **pad the count, evade attribution,
+evade the degree-of-change requirement, or mislead third-party determination.**
+
+- **空操作积木 / Null-operation blocks**
+  执行后**无任何可见效果或状态变化**的积木；
+  blocks that produce **no visible effect or state change** after execution
+  （如恒返回固定值 / 原值、`true` / `false`、空过程、透传等；
+  e.g. always returning a fixed value / the original value, `true`/`false`, empty procedures, passthrough).
+
+- **弱操作积木 / Weak-operation blocks**
+  形式上执行了操作，但**对最终结果无实质影响**的积木；
+  blocks that formally perform an operation but have **no material effect on the final result**
+  （如无关紧要的临时变量、重复设置相同值、无贡献的冗余运算等；
+  e.g. meaningless temporary variables, repeatedly setting the same value, redundant computations with no contribution).
+
+- **低操作积木 / Low-operation blocks**
+  仅做了**少量操作**、功能**微不足道**、**可被一句话或单个原生积木替代**的积木；
+  blocks involving **only a few operations**, with **trivial functionality**, and that **could be
+  replaced by a single sentence or a single native block**
+  （如简单包装已有功能、封装常量、仅作格式转换等；
+  e.g. trivially wrapping existing functionality, encapsulating a constant, mere format conversion).
+
+**判断原则 / Principle**：凡是"新增功能**可被一句话或单个原生积木替代**"的 → 一律视为上述三类之一
+→ **不计入改动幅度**。
+
+Any added functionality that **could be replaced by a single sentence or a single native block**
+is deemed one of the three types above → **it does NOT count toward the degree of change.**
+
+**累计计算 / Cumulative counting**：空操作、弱操作、低操作三类**合并计为一个总量**，
+不得通过分散在不同位置来规避"改动幅度"要求。
+
+Null, weak, and low-operation blocks are **counted together as one total**;
+they must not be dispersed across different locations to circumvent the degree-of-change requirement.
+
+**同时禁止借此稀释或掩盖署名义务**——例如将署名藏进一个"可被一键关闭的署名积木"，
+或通过大量无用积木使署名难以被察觉。
+
+It is also prohibited to **dilute or conceal attribution** by this means—for example, hiding the
+attribution inside a "one-click-removable attribution block", or making it hard to notice
+through a mass of useless blocks.
+
+### 0.5 禁止隐藏署名页 / No Hiding the Attribution Page
+
+**禁止**通过任何技术手段（密码、输入、隐藏入口、深埋路径、代码混淆、条件跳转等）
+**隐藏、遮蔽、阻碍**使用者访问署名页或署名信息。
+
+**Prohibited**: hiding, obscuring, or blocking access to the attribution page or attribution
+information by any technical means (passwords, input prompts, hidden entrances, deeply buried paths,
+code obfuscation, conditional jumps, etc.).
+
+---
+
+## 1. 署名要求 / Attribution
+
+### 1.1 格式 / Format
+
+署名须采用以下标准格式（顺序、内容不可省略，**名称两侧尖括号 `<>` 为占位符，实际使用请替换为具体名称**）：
+
+Attribution must use the following standard format (order and content may not be omitted;
+**the angle brackets `<>` denote placeholders—replace them with the actual names**):
+
+```
+Powered by <作品名>（<作者名>）
+Powered by <Work Name> (<Author Name>)
+```
+
+- **作品名**：本作品的名称；
+  **Work Name**: the name of this work.
+- **作者名**：原作者或代发方的署名标识（如 `AKM2498K146`）；
+  **Author Name**: the attribution identifier of the original author or distributor (e.g. `AKM2498K146`).
+- **多作者**：用顿号 `、` 或 `,` 并列，如 `Powered by <作品名>（<作者A>、<作者B>）`；
+  **Multiple authors**: list with `、` / `,`, e.g. `Powered by <Work Name> (<Author A>, <Author B>)`.
+- **禁止使用**（见第 2 条）：使用本作品创作的作品、其作者及内容，**与本协议作者方无关**，
+  其违规行为不构成对本协议的违反。
+  **Disclaimer (Section 2)**: works created using this work, and their authors and content,
+  are **unrelated to the authoring party of this agreement**; their violations do not constitute breaches hereof.
+
+### 1.2 署名位置与路径深度 / Placement & Path Depth
+
+署名信息须**清晰可见、易于访问**，并满足以下路径深度要求：
+
+Attribution information must be **clearly visible and easily accessible**, and meet the following depth rules:
+
+#### 1. 1–4 次点击可见 / Visible within 1–4 Clicks
+
+从使用者正常进入的**主界面 / 主菜单**出发，**1 至 4 次点击**内应能访问到署名信息；
+
+Starting from the **main interface / main menu** the user normally enters, attribution must be
+reachable within **1 to 4 clicks**;
+
+例如：`主界面 > 菜单 > 设置 > 关于`（4 级，合规）。
+e.g. `Main Interface > Menu > Settings > About` (4 levels → valid).
+
+#### 2. 页面等级：以「默认菜单路径」为准，不得超过 3 级 / Page Depth: Default-Menu Path, Max 3 Levels
+
+**页面等级以「默认菜单」为准，不得超过 3 级。**
+**Page depth is measured from the default menu and must not exceed level 3.**
+
+- **默认菜单 / Default menu**：使用者**正常流程中最先 / 最常进入**的主界面、主菜单及其**直接分支**。
+  The main interface / main menu the user **first or most often enters** in normal use, and its **direct branches**.
+  即 `页面A > 设置 > 关于` 为 3 级，合规。
+  So `Page A > Settings > About` = level 3 → valid.
+
+- **非默认菜单不算 / Non-default menus do NOT count**：
+  `页面C（非默认）> 页面D > 设置 > 关于` 这类**不在默认菜单内**的路径，
+  即使层级数字 ≤ 4，也**不属于**"1–4 次点击"的有效路径，署名无效。
+  Paths like `Page C (non-default) > Page D > Settings > About` that are **not within the default menu**
+  do not qualify as valid "1–4 clicks" paths, even if the numeric depth ≤ 4 → attribution is invalid.
+
+#### 3. 特殊条款（仅限确有必要的作品，如游戏等）/ Special Clause (only for works that genuinely require it, e.g. games)
+
+**主页面 > 暂停页 > 设置 > 关于** 或 **主页面 > 暂停页 > 设置 > 关于 > 特别鸣谢** 这类结构，
+因作品形态确有必要的，可适用本特殊条款。
+
+Structures such as **Main Page > Pause Page > Settings > About** or
+**Main Page > Pause Page > Settings > About > Special Thanks**, where the work's form genuinely
+requires it, may use this special clause.
+
+**启用条件（须同时满足）/ Conditions (all must be met)**：
+
+- 作品**确实属于**此类特殊结构（主界面 → 暂停页流程）；
+  The work **genuinely has** such a special structure (main interface → pause-page flow).
+- 「关于」页**明确标注「特殊条款 / Special Clause」字样**；
+  The "About" page **explicitly states "特殊条款 / Special Clause"**.
+- 整体路径深度**不超过 5–6 级**；
+  Total path depth is **no more than 5–6 levels**.
+
+**不满足上述条件 → 特殊条款不生效 → 仍按默认菜单路径 ≤ 3 级判定；**
+**若实际超过 5–6 级 → 署名过于隐蔽、无效，属违规。**
+
+**If any condition is not met → the special clause does NOT apply → the default-menu, max-3-level rule applies.**
+**If the actual depth exceeds 5–6 levels → attribution is overly concealed, invalid, and a violation.**
+
+#### 4. 禁止通过非正常手段隐藏 / No Hiding via Abnormal Means
+
+禁止通过**输入、密码、隐藏入口、代码混淆**等非正常手段，使署名页**不可直接访问**。
+
+Making the attribution page **not directly accessible** via **input prompts, passwords, hidden entrances,
+or code obfuscation** is prohibited.
+
+### 1.3 不隐蔽 / Not Concealed
+
+署名**不得**：
+
+Attribution must **NOT** be:
+
+- **隐藏、模糊、缩小至难以辨认**，或置于**不相关、难以到达**的位置；
+  hidden, blurred, shrunk to illegibility, or placed somewhere **irrelevant or hard to reach**;
+- **要求使用者执行额外操作**（如输入、解谜、跳转外部链接）才能看到；
+  require extra actions (input, puzzles, external links) to view;
+- **动态闪烁、滚动过快、仅在特定条件下短暂出现**，导致**实质上无法稳定查看**；
+  flashing, scrolling too fast, or appearing only briefly under certain conditions, making it
+  **impractically impossible to view steadily**;
+- **以"可被一键关闭 / 一键移除"的方式呈现**署名（含将署名放进可关闭积木、可跳过画面等）；
+  presented in a "one-click removable / skippable" way (including putting attribution in a
+  dismissible block or skippable screen);
+- **与大量无用积木、装饰元素混杂**，导致署名**难以被察觉**（参见 0.4）。
+  mixed with大量 useless blocks or decorative elements so that it is **hard to notice** (see 0.4).
+
+---
+
+## 2. 免责声明 / Disclaimer
+
+本协议作者方（含原作者及代发方 / 分发者）**不对使用者的使用行为及其产生的内容承担责任**。
+The authoring party (original author, distributor, and redistributor) **is not responsible for
+the user's use or for any content arising therefrom**.
+
+### 2.1 内容责任 / Content Responsibility
+
+使用者**利用本作品所创作、发布、传播的一切内容**（含修改版、衍生作品、搭载本作品的成品等），
+其**内容、合法性、安全性、准确性**由使用者**自行负责**。
+
+All content created, published, or disseminated by the user using this work (modified versions,
+derivative works, finished products incorporating this work, etc.) is the user's **own responsibility**
+as to its **content, legality, safety, and accuracy**.
+
+### 2.2 违规使用 / Misuse
+
+若使用者将本作品用于**违法、违规、侵权**或**违反第三方平台规则**的行为，
+由使用者**自行承担全部责任**；本协议作者方**不承担连带责任**。
+
+If the user uses this work for **illegal, violating, infringing** acts or acts **breaching third-party
+platform rules**, the user bears **full responsibility**; the authoring party **bears no joint liability**.
+
+### 2.3 不作担保 / No Warranty
+
+本作品按**"现状"**提供，**不提供任何明示或暗示的担保**（含适销性、特定用途适用性、非侵权、
+安全性、准确性、持续可用等）。使用者**自行承担**使用风险。
+
+The work is provided **"as is"**, **without any express or implied warranty** (including merchantability,
+fitness for a particular purpose, non-infringement, safety, accuracy, continued availability, etc.).
+The user accepts **all risks** of use.
+
+### 2.4 第三方内容 / Third-Party Content
+
+本作品**包含或链接的第三方内容**，由**该第三方自行负责**；本协议作者方对其**真实性、合法性、
+安全性不作任何保证**。
+
+Any **third-party content included in or linked from** this work is the **sole responsibility of that third party**;
+the authoring party makes **no representation or warranty** as to its truthfulness, legality, or safety.
+
+---
+
+## 3. 终止 / Termination
+
+### 3.1 自动终止 / Automatic Termination
+
+出现以下任一情形，本授权**自动、立即终止**，无需另行通知：
+
+The grant **terminates automatically and immediately** upon any of the following,
+**without the need for separate notice**:
+
+1. **违反本协议条款**：含违反署名义务（第 1 条）、禁止倒卖（0.2）、禁止换皮（0.3）、
+   免责声明相关约定等；
+   **Breach of any term**: including attribution (Section 1), no resale (0.2), no reskinning (0.3),
+   and the disclaimer provisions.
+
+2. **违法违规**：使用者**违反法律法规**或**违反第三方平台规则**的；
+   **Violation of law or rules**: the user **violates any law or regulation** or **any third-party platform rule**.
+
+3. **由原作者 / `AKM2498K146` 取消授权**：原作者本人或 `AKM2498K146`
+   （本仓库拥有者、文件代发方）本人有权取消某一使用者的授权；
+   除此之外**任何第三方**（含其他代发方、分发者、使用者）均**无权**取消他人授权。
+   **Revocation by original author / `AKM2498K146`**: the original author or `AKM2498K146`
+   (owner of this repository and distributor of the files) may revoke a user's grant;
+   **no third party** (including other distributors, redistributors, or users) may revoke another's grant.
+
+终止后，使用者**不得继续**复制、分发、展示或以其他方式使用本作品。
+Upon termination, the user must **cease** copying, distributing, displaying, or otherwise using this work.
+
+### 3.2 既往责任不受影响 / Prior Liability Unaffected
+
+授权终止**不影响**终止前已发生的行为及其责任；使用者**仍须**对其在授权有效期内
+（含已终止后**持续存在**的）行为承担相应责任与赔偿。
+
+Termination **does not affect** acts and liabilities that arose before termination.
+The user remains **fully responsible** for acts during the valid period (including those **continuing**
+after termination) and for any resulting compensation.
+
+### 3.3 恢复 / Reinstatement
+
+授权终止后**不会自动恢复**。恢复须**同时满足**以下条件：
+
+A terminated grant **does not reinstate automatically**. Reinstatement requires **all** of the following:
+
+1. 使用者已**停止**所有违规行为；
+   The user has **ceased** all violations.
+2. 使用者已**弥补**因违规行为造成的**全部损害**；
+   The user has **remedied all harm** caused by the violations.
+3. 已获得**作者方（含原作者 / `AKM2498K146`）的书面同意**。
+   **Written consent** from the authoring party (original author / `AKM2498K146`) has been obtained.
+
+---
+
+## 附：定义 / Appendix: Definitions
+
+- **作品 / Work**：本协议所附着的作品及其可识别的实质部分。
+  The work this agreement attaches to, and its identifiable substantial parts.
+- **使用者 / User**：获取、复制、修改、分发或运行本作品的自然人、法人或其他组织。
+  Any person or entity that obtains, copies, modifies, distributes, or runs this work.
+- **作者方 / Authoring Party**：原作者及其授权的代发方、分发者（如 `AKM2498K146`）。
+  The original author and authorised distributors (e.g. `AKM2498K146`).
+- **署名 / Attribution**：按第 1 条格式与位置呈现的归属信息。
+  Ownership information presented in the format and place prescribed in Section 1.
+- **实质性改动 / Substantial Change**：同时满足 0.0.1 中三项客观标准的改动。
+  A change satisfying all three objective criteria in 0.0.1.
+- **对价 / Consideration**：0.2.1 所界定的、使用者为获取本作品所支付或转移的**任何价值**。
+  Any value paid or transferred by the user to obtain this work, as defined in 0.2.1.
+
+---
+
+**具体条款以本文件为准；如配套 `LICENSE` 文件，其为本协议的附加文本，二者不一致时以本文件为准。**
+**This file is the governing text; any accompanying `LICENSE` file is supplementary, and this file prevails in case of conflict.**
